@@ -1,0 +1,33 @@
+.item {
+    background-color: rgb(230, 73, 73);
+    padding: 15px;
+    margin-bottom: 15px;
+    border:#aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #964747;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 0 1em #534040;
+    }
+
+    &.completed {
+        text-decoration: line-through;
+    }
+}
+
+.toggles {
+    color: rgb(22, 12, 12);
+}
+
+.name {
+    padding-top: 5px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px salmon solid #333;
+}
